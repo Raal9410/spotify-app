@@ -15,7 +15,7 @@ var cookieParser = require('cookie-parser');
 
 var client_id = process.env.CLIENT_ID; // Your client id
 var client_secret = process.env.CLIENT_SECRET; // Your secret
-var redirect_uri = process.env.backendUrl+'/callback'; // Your redirect uri
+var redirect_uri = 'https://indigo-gozing.herokuapp.com/callback'; // Your redirect uri
 // || 'http://localhost:8888/callback'
 /**
  * Generates a random string containing numbers and letters
